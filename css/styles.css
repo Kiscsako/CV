@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+* {
+margin: 0;
+}
+body {
+
+}
+
+header {
+    background-color: #083f57;
+    background-color: rgb(10, 50, 70);
+    padding: 24px;
+    position: relative;
+
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    color: #b04b19;
+    color: #077499;
+    margin-top: -14px;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 64px;
+    color: #ffffff;
+    padding: 0;
+    
+}
+h1 span:first-child {
+    color: #ffffff;
+    display: block;
+    margin-bottom: -40px;
+    
+}
+h1 span:last-child {
+    color: #167797;
+    color: rgba(4, 117, 123, 0.7);
+
+    font-size: 150%;
+}
+h2 {
+    color: rgba(184, 231, 243, 0.8);
+    color: #93cce5;
+    font-family: 'Oswald', sans-serif;
+}
+h3 {
+    font-family: 'Oswald', sans-serif;
+    color: #f36d2a;
+}
+
+.cta-button {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+button {
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    padding: 12px;
+    text-decoration: none;
+    background: none;
+    border: none;
+    border: 2px solid #077499;
+
+}
+
+.wave-square {
+    height: 5vh;
+    background-color: #0B4F6C;
+    width: 100%;
+}
+.wave {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 45px;
+    transform: rotateY(180deg);
+}
+
+.wave .shape-fill {
+    fill: #0B4F6C;
+}
