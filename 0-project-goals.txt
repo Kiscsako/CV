@@ -1,0 +1,21 @@
+Project goals
+
+Description:
+
+Introduction of the project, a short summary 
+of the page's aim and content. 
+
+Goals: 
+
+- Create a personal page
+- Online CV
+- Introduction of my personal activities 
+- Introduction of my professional activities
+- Write about topics I learned
+
+In this page I will introduce me to employers 
+In this page I will introduce me to businesses 
+In this page I will keep myself accountable 
+In this page I can share and write about topics
+In this page I am going to practice coding / web development
+

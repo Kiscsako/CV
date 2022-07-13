@@ -1,0 +1,49 @@
+Page structure
+
+Description: 
+
+Introduction the page's structure. 
+Describe the elements that the page must contain, 
+and the reason why it must contain it. 
+
+Elements of a page: 
+- header 
+    - navigation
+    - hero section
+    - links to other pages (facebook, linkedin, instagram)
+
+- main section
+    - content of the current page
+    - links to blog posts 
+    - 
+- footer 
+
+Landing page
+
+This is the page where the new visitor will land first
+This page must be well designed, 
+attention grabbing and interesting.
+Easy to navigate 
+Introduction of the man behind this page
+
+CV page 
+
+It contain the downloadable file of my CV
+Well designed easy to use online CV
+
+Personal page
+
+Personal information and detailed introduction of me
+
+Blog
+
+On this site I will write about 
+personal and professional topics. 
+2x a week I will share information about topics I learned 
+1 topic in my desired field (web development, programming, networking)
+1 topic about a random topic I am interested in
+
+
+Contact form
+
+

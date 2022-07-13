@@ -8,122 +8,106 @@
    - #0B4F6C (light blue)- Secoundary color
    - #F1F6F9 (white) for highlighting on dark blue
    - #D3E0EA (light blue) 
-
-   Goals for this week: 
-   - design patterns
-   - heading
-   - responsive heading 
-   - footer
-   - responsive footer
-   -
 */
 
-
-.color-box-container {
-    display: flex;
-    background-color: #07364a; 
-}
-.color-box {
-    width: 80px;
-    height: 80px;
-    border: 1px solid #fff;
-    margin: 24px;
-}
-
-.main-color {
-    background-color: #07364a
-}
-.sec-color{
-    background-color: #0B4F6C;
-}
-
-.third-color {
-    background-color: #D3EaEA;
-
-}
-
-.fourth-color{
-    background-color: #F1F6F9;
-}
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+  
 body {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
+    font-family: 'Lora', serif;
+    background-color: #F5F0F6;
 }
+a {
+    text-decoration: none;
+    color: #F5F0F6
+}
+/* header styles */
 
 header {
-    background-color: #07364a;
-    background-image: linear-gradient(180deg,#07364a,#07364a, #07364a, #07364a, #0B4F6C);
-    padding: 24px;
-    position: relative;
-    margin-bottom: 20vh;
-    height: 40vh;
     display: flex;
     flex-direction: column;
-}
-
-
-h1{
-    font-family: 'Merriweather', serif;
-    color: #D3E0EA ;
-    border-bottom: 2px solid #D3E0EA ;
-    letter-spacing: 3px;
+    position: relative;
+    height: 80vh;
+    padding: 24px;
+    margin-bottom: 20vh;
+    background-color: #2B4162; 
+    background: url("/pictures/ashwini-chaudhary-monty-czPD6s3JQmk-unsplash.jpg"); 
+    background: 
+    linear-gradient(180deg, #2b4162a1 0%, #2b416260 65%, #2b416250 70%, rgba(4,36,60,1) 100%),
+    url(/pictures/earth.png), url("/pictures/ashwini-chaudhary-monty-czPD6s3JQmk-unsplash.jpg");
+    background-size: cover, cover, cover;
+    background-repeat: no-repeat;
+    background-position: center, center, center;
 
     
-}
-h1 span:first-child {
-    display: block;
-    margin-bottom:  -10px;
+
+ 
 }
 
-h1 span:last-child {
-    color: #0B4F6C;
+header h1{
+    font-size: 26px;
+    letter-spacing: 5px;
+    text-transform: lowercase;    
+    color: #F5F0F6;
+    border-bottom: 1px solid #64b6aca0;
 }
 
-h2 {
-    color: #F1F6F9;
-    letter-spacing: 2px;
+header h1 span:first-child {
+    opacity: 50%;
+}
+header h1 span:last-child {
+    color: #385F71;
+    opacity: 100%;
+}
+
+header h2 {
+    color: #F5F0F6;
+    letter-spacing: 5px;
     font-family: 'Oswald', sans-serif;
+    margin-top: -26px;
     font-size: 36px;
-    margin-top: -24px;
     text-transform: uppercase;
+    opacity: 60%;
+
+
 
 }
-
-.cta-button {
+header div{
+    display: flex;
     margin: auto;
+}
+
+#arrow-icon {
+    padding: 14px 10px 24px;
+    font-size: 30px;
+    color: #64b6ac;
+    display: block;
     text-align: center;
+    transition: .6s;
 }
 
-button {
-    cursor: pointer;
-    transition: .4s;
-    font-size: 18px;
-    font-family: 'Merriweather', serif;
-    color: #D3E0EA;
-    padding: 12px;
-    text-decoration: none;
+header a {
+    padding: 14px 6px 0px 6px;
     background: none;
-    border: 2px solid #0B4F6C;
+    border: 1px solid #64b6ac;
+    cursor: pointer;
+    color: #F5F0F6;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    opacity: 70%;
+    transition: .6s;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    margin-top: 30vh;
+}
+header a:hover {
+    opacity: 100%;
+}
 
-}
-button:hover {
-    border-color: #fff;
-    color: #fff;
-}
-
-.wave-square {
-    height: 5vh;
-    min-height: 50px;
-    background-color: #0B4F6C;
-    width: 100%;
-}
-.wave {
+header .wave {
     position: absolute;
     top: 100%;
     left: 0;
@@ -132,16 +116,14 @@ button:hover {
     line-height: 0;
 }
 
-.wave svg {
+header .wave svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 45px;
+    height: 30px;
     transform: rotateY(180deg);
 }
 
-.wave .shape-fill {
-    fill: #0B4F6C;
-    background-image: linear-gradient(90deg,#07364a,#07364a, #0B4F6C);
-
+header .wave .shape-fill {
+    fill: #04243c;
 }

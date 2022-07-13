@@ -1,0 +1,19 @@
+Daily goals
+
+Description: 
+
+The list and the description of the daily tasks to 
+complete the porject.
+
+Day 1: 22.07.12
+
+- Describe the purpose of the page (done)
+- Introduce the page structure (done)
+- Work on the design (done)
+- Optimalize the existing code (scss, variables, colors, sizes)
+
+Day 2: 22.07.13
+
+- Optimalize the existing code 
+
+   
